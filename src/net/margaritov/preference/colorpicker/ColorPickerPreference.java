@@ -38,7 +38,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.nezuko.support.R;
+import com.radiant.support.R;
 
 /**
  * A preference type that allows a user to choose a time
