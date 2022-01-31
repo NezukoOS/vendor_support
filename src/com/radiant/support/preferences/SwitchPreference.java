@@ -39,6 +39,7 @@ public class SwitchPreference extends androidx.preference.SwitchPreference {
 
     public SwitchPreference(Context context, AttributeSet attrs, int defStyleAttr) {
         this(context, attrs, defStyleAttr, 0);
+        setIconSpaceReserved(false);
     }
 
     public SwitchPreference(Context context, AttributeSet attrs) {
@@ -46,11 +47,13 @@ public class SwitchPreference extends androidx.preference.SwitchPreference {
                 androidx.preference.R.attr.switchPreferenceStyle,
                 android.R.attr.switchPreferenceStyle));
         setLayoutResource(R.layout.preference_material_settings);
+        setIconSpaceReserved(false);
     }
 
     public SwitchPreference(Context context) {
         this(context, null);
         setLayoutResource(R.layout.preference_material_settings);
+        setIconSpaceReserved(false);
     }
 
     @Override
